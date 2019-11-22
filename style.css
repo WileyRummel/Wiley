@@ -1,0 +1,75 @@
+html {
+    background: url(landscape.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+    padding:12px;
+}
+body {
+    justify-items: center;
+}
+#my-name {
+    display: flex;
+    justify-content: center;
+    font-family: 'Jura', sans-serif;
+
+}
+#about {
+    margin: auto;
+    width: 30%;
+    height: auto;
+    
+    
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 25% 30% 20% 15%;
+    grid-template-areas: 
+    "pic pic"
+    "resume port"
+    "proj proj"
+    "contact contact";
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    justify-items: center;
+    justify-content: center;
+    
+}
+#pic {
+    grid-area: pic;
+    height: 20%;
+    
+}
+#resume {
+    grid-area: resume;
+}
+#port {
+    grid-area: port;
+}
+#proj {
+    grid-area: proj;
+    width:70%;
+}
+#contact {
+    grid-area: contact;
+}
+.item {
+    margin: 30px;
+    ;
+}
+#headshot {
+    height: 250px;
+    width: auto;
+    border-radius: 10%;
+    align-self: center;
+}
+.item>img {
+    height: 200px;
+    width: auto;
+    justify-items: center;
+}
