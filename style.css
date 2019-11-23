@@ -212,7 +212,7 @@ li {
         "contact contact";
         width: 70%;
         height: auto;
-        margin: auto;
+        
         justify-items: center;
         justify-content: center;
         
@@ -276,8 +276,8 @@ li {
     }
     .wrapper {
         display: grid;
-        grid-template-columns: 30% 30% ;
-        grid-template-rows: 15% 20% 20% 20% 10%;
+        grid-template-columns: 40% 40% ;
+        grid-template-rows: 10% 20% 15% 20% 10%;
         grid-template-areas:
         "about about" 
         "pic pic"
@@ -286,9 +286,31 @@ li {
         "contact contact";
         width: 80%;
         height: auto;
-        margin: auto;
+        
         justify-items: center;
         justify-content: center;
         
+    }
+    body {
+        justify-items: center;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 18px;
+      
+    }
+    #about {
+        margin: auto;
+        width: 70%;
+        height: auto;
+        font-family: 'Source Code Pro', monospace;
+        font-size: medium;
+    }
+    .item {
+        margin: 5%;
+        padding: 5%;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: flex-start;
+
     }
 }
